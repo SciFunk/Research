@@ -29,20 +29,7 @@ with gzip.open('C:\\Users\\SciFunk\\Downloads\\Working\\chr1small.vcf.gz', "rt")
             pop = pop_map[ID]    #gives, GBR, LWK, etc; pop_map is dict: {H1: GBR, H2: LWK, ...}
             pop_counts[pop] += snps #pop_counts is Counter that adds 0,1,2 based on SNPs
             pop_total[pop] += 2 #counts total population numbers
-
-#             if pop_counts["LWK"] > 1:
-#                     print(pop, pop_counts["LWK"])
-#             if LWKperc + ESNperc < 1:
-#                 for pop, count in pop_counts.items():
-#                     percentage = (count / pop_total[pop]) * 100
-#                     if percentage > 5:
-#                         final_pop_info[pop] += 1
-
-        total_LWK = 0
-        total_ESN = 0
-        total_GWD = 0
-        total_MSL = 0
-        total_YRI = 0
+            
         total_Afr = 0
         total_Afr += pop_counts["LWK"]
         total_Afr += pop_counts["ESN"]

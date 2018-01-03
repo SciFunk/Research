@@ -36,7 +36,7 @@ with gzip.open('C:\\Users\\SciFunk\\Downloads\\Working\\chr1small.vcf.gz', "rt")
         total_Afr += pop_counts["GWD"]
         total_Afr += pop_counts["MSL"]
         total_Afr += pop_counts["YRI"]
-        if total_Afr > 1002:   #this leaves <0.5% 0's
+        if total_Afr > 997:   #this leaves <1% 0's
             for pop, count in pop_counts.items():
                 percentage = (count / pop_total[pop]) * 100
                 if 95 < percentage < 100:

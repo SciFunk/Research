@@ -1,3 +1,6 @@
+###this script looks for SNPs that are <0.5% in the general population but greater than 5% in a given population, 
+###with the given population SNP count being excluded
+
 import sys
 import gzip
 from collections import Counter

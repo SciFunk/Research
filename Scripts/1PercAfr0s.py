@@ -1,3 +1,5 @@
+##this script looks for African SNPs with <1% 0 alleles, then looks for populations with >5% 0 alleles
+
 import sys
 import gzip
 from collections import Counter

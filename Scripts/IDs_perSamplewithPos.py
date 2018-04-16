@@ -1,8 +1,3 @@
-
-# coding: utf-8
-
-# In[ ]:
-
 import gzip
 import re
 import sys

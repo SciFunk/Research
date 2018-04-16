@@ -1,0 +1,13 @@
+#!/bin/bash
+#$ -S /bin/bash
+#$ -q std.q
+#$ -cwd
+#$ -N IDs
+#$ -V
+#$ -M afunk@ucmerced.edu
+#$ -pe smp 20
+#$ -m be
+
+module load anaconda3
+source activate test
+python IDs_perSamplewithPos.py /home/1000genome_data/ALL.chr{1..22}.*

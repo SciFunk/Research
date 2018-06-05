@@ -4,7 +4,7 @@
 #$ -cwd
 #$ -N IDs
 #$ -V
-#$ -M afunk@ucmerced.edu
+#$ -M EMAIL@COLLEGE.edu
 #$ -pe smp 20
 #$ -m be
 

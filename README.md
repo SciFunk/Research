@@ -25,4 +25,4 @@ Necessary files for the next two scripts are in the scripts folder (1000.genome.
   * file has columns: rsID, pop, allele
   * *stored as Working/IDs/allchrPops_rsID.csv*
   
-* To find significant tissue expression for 
+* To find significant tissue expression using GTEx data:

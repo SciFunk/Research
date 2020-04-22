@@ -1,3 +1,6 @@
+fig_anno:
+1. entire genome annotation counts were calculated using annotations from original 1KG files, code in count_annotation.py
+
 Data:
 1. all SNPs <1% Afr >5% other pop: sample info, rsID, chr, pos, allele - IDs/allchr_allSamples_rsID_pos_pop_CLEAN.csv
 2. all SNPs <1% Afr >5% other pop: unique rsID (per pop) only: sample info, rsID, chr, pos, allele, pop, superpop - IDs/unique_allchr_allSamples_rsID_pos_pop_CLEAN.csv
